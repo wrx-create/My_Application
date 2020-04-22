@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">我的应用</string>
+    <string name="phone_error">请输入11位整数</string>
+    <string name="username_format">用户名是由字母、数字或"_"组成,长度6~30位</string>
+    <string name="password_format">密码由字母、数字或“_”组成，长度不少于6位</string>
+    <string name="password_re">输入有误,请再次确认密码</string>
+    <string name="port_format">端口号范围从0~65535</string>
+    <string name="open_drawer">打开抽屉</string>
+    <string name="close_drawer">关闭抽屉</string>
+    <string name="C">\u00b0</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_wodezhanghu">我的账户</string>
+    <string name="menu_honlvdeng">红绿灯管理</string>
+    <string name="menu_zhangdan">账单管理</string>
+    <string name="menu_weizhang">违章查看</string>
+    <string name="menu_contextzhibiao">环境指标</string>
+    <string name="menu_yuzhi">阈值管理</string>
+    <string name="menu_chuxing">出行管理</string>
+    <string name="menu_gongjiaochaxun">公交查询</string>
+    <string name="menu_cheliangweizhang">车辆违章</string>
+    <string name="menu_lukuang">路况查询</string>
+    <string name="menu_shenghuozhushou">生活助手</string>
+    <string name="menu_shujufenxi">数据分析</string>
+    <string name="menu_gerenzhongxin">个人中心</string>
+    <string name="menu_shenghuozhishu">生活指数</string>
+    <string name="menu_xiaoxi">我的信息</string>
+    <string name="menu_zhanghuset">账户设置</string>
+    <string name="menu_shishihuanjing">实时环境</string>
+    <string name="menu_yijianfangkui">意见反馈</string>
+    <string name="menu_ditiequery">地铁查询</string>
+    <string name="menu_gaosulukuang">高速路况</string>
+    <string name="menu_gaosuETC">高速ETC</string>
+    <string name="menu_lvxingmessage">旅行信息</string>
+    <string name="menu_tianqimessage">天气信息</string>
+    <string name="menu_erweimazhifu">二维码支付</string>
+    <string name="menu_dinzhibanche">定制班车</string>
+    <string name="menu_xinwen">新闻媒体</string>
+    <string name="menu_IC">IC卡充值</string>
+    <string name="menu_shoufei">车辆收费查询</string>
+    <string name="menu_park">停车场</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

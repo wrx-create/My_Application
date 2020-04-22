@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="120dp"
+    android:layout_height="90dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginBottom="5dp"
+    android:background="#daedff"
+    android:orientation="horizontal"
+    android:paddingHorizontal="2dp"
+    android:paddingBottom="5dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/live_index_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:paddingTop="17dp"
+            android:scaleType="center"
+            app:srcCompat="@mipmap/qiu" />
+
+        <TextView
+            android:id="@+id/live_index_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:ems="4"
+            android:gravity="center|top"
+            android:maxLines="2"
+            android:text="紫外线指数"
+            android:textColor="#73aed9"
+            android:textSize="8sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/live_index_level"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="bottom|center"
+            android:maxLines="1"
+            android:text="中等（100）"
+            android:textColor="#73aed9"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/live_index_describe"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ellipsize="marquee"
+            android:gravity="center|top"
+            android:maxEms="9"
+            android:maxLines="4"
+            android:scrollHorizontally="true"
+            android:text="涂擦SPF大于15、PA+防晒护肤品"
+            android:textColor="#2D2F31"
+            android:textSize="8sp" />
+    </LinearLayout>
+</LinearLayout>
